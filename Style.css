@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+}
+
+#header{
+    text-align: center;
+    height: 210px;
+    z-index: 1;
+}
+
+#header img{
+    z-index: 1;
+}
+
+
+#menu-bar{
+    background-color: cadetblue;
+    text-align: center;
+    margin: 0px;
+    z-index: 5;
+}
+
+#menu-bar li{
+    display: inline-block;
+    padding: 15px 11px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+#container{
+    text-align: center;
+    margin: 11px 55px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: green;
+}
+
+#container img{
+    width: 85%;
+}
+
+#container p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
